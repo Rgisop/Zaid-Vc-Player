@@ -93,8 +93,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("⛩ αηιмє gяσυρ ⛩", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("⛩ Cʜᴀɴɴᴇʟ ⛩", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("αηιмє gяσυρ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
                 InlineKeyboardButton("Owner", url="https://t.me/imAnimelover"),
@@ -190,11 +190,11 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("💌 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🏷️ Oꜰꜰɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("αηιмє gяσυρ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
+                InlineKeyboardButton("Owner", url="https://t.me/imAnimelover"),
             ],
             [
                 InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
